@@ -1,0 +1,308 @@
+
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+h2 {
+  margin-left: 60px;
+}
+header p {
+  margin-left: 550px;
+  color: grey;
+}
+header a{
+  margin-left: 50px;
+}
+header button {
+  margin-left: 50px;
+  padding: 15px;
+  background-color: rgb(71, 71, 249);
+  border-radius: 25px;
+  border: none;
+  width: 160px;
+  color: white;
+}
+
+
+.container1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  position: relative;
+}
+.container1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50;
+  width: 90%;
+  height: 1px;
+  background-color: white;
+}
+
+.container1 li {
+  text-transform: uppercase;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+h2 {
+  padding-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+}
+
+.kaylatext {
+  text-align: center;
+  color: rgb(254, 128, 93);
+  font-size: 85px;
+  margin-left: 200px;
+  padding-top: 100px;
+}
+
+.kaylaauthor {
+  margin-top: 0;
+   height: 350px;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+}
+.kaylaauthor p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.kaylaauthor img {
+  position: relative;
+  left: 160px;
+  bottom: 60px;
+}
+
+.kaylaauthor .icon1 {
+  position: fixed;
+  left: 20px;
+}
+
+.kaylaauthor .icon2 {
+  position: fixed;
+  left: 20px;
+  top: 560px;
+}
+
+.theswanisle {
+  margin-left: 120px;
+  width: 1000px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  margin-top: 300px;
+}
+
+.newrelease {
+  width: 260px;
+  height: 24px;
+  background-color: rgb(254, 128, 93);
+  margin-top: 40px;
+}
+
+.newrelease p {
+   color: black;
+}
+
+h3 {
+  margin-left: 90px;
+  font-size: 46px;
+}
+
+.theswanisle p {
+  padding-left: 100px;
+  margin-top: 60px;
+  line-height: 26px;
+}
+
+.theswanisleleft {
+  color: white;
+}
+
+.swanilse {
+  position: relative;
+  left: 300px;
+}
+
+.ordernow {
+  margin-top: 80px;
+}
+
+.theswanisle button {
+  padding: 22px;
+  border-radius: 50px;
+  width: 100px;
+  color: rgb(254, 128, 93);
+  border-color: rgb(254, 128, 93);
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.theswanisle button:hover {
+  background-color: rgb(254, 128, 93);
+  color: black;
+}
+
+.container2 {
+  width: 100%;
+  max-width: auto;
+  height: 700px;
+  background-color: rgb(31, 34, 47);
+  margin: 0;
+}
+
+.textpraise {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(254, 128, 93);
+  margin-left: 30px;
+  padding-top: 40px;
+}
+
+.rewiews {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.review {
+  flex: 1;
+  max-width: 30%;
+  background: rgb(31, 34, 47);
+  color: white;
+  padding: 20px;;
+  text-align: center;
+  height: 500px;
+}
+
+.small {
+  color: rgb(254, 128, 93);
+  font-size: 80px;
+}
+
+.review p {
+  line-height: 20px;
+}
+
+.review hr {
+  width: 3cm;
+  height: 1px;
+  background-color: grey;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.text1 {
+  color: rgb(254, 128, 93);
+  padding-top: 30px;
+  line-height: 20px;
+}
+
+.seeupcoming {
+  width: 100%;
+  height: 1400px;
+  background-color: rgb(0, 0, 0);
+}
+.seeupcoming h2 {
+  color: rgb(254, 128, 93);
+  font-size: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+.seetext {
+  color: white;
+  margin-left: 600px;
+  line-height: 30px;
+}
+
+.january {
+  width: 800px;
+  height: 300px;
+  margin-left: 400px;
+  margin-bottom: 30px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+}
+.textjanuary {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 60px;
+}
+.january button {
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(254, 128, 93);
+  border-radius: 30px;
+  border: 1px solid grey;
+  width: 150px;
+  margin-left: 330px;
+}
+.january button:hover {
+  background-color: rgb(254, 128, 93);
+  color: black;
+}
+
+.aboutkayla {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(31, 34, 47);
+}
+.aboutkayla h2 {
+  color: rgb(254, 128, 93);
+  font-size: 30px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 60px;
+}
+.aboutkayla img {
+  position: relative;
+  border-radius: 50%;
+  margin-left: 650px;
+  margin-top: -100px;
+}
+.aboutkayla p{
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.aboutkayla button {
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(254, 128, 93);
+  border-radius: 30px;
+  border: 1px solid grey;
+  width: 150px;
+  margin-left: 680px;
+  margin-top: 40px;
+}
+.aboutkayla button:hover {
+  background-color: rgb(254, 128, 93);
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(254, 128, 93);
+}
+footer p {
+  text-align: center;
+  padding-top: 15px;
+}
+footer a {
+  color: black;
+}
