@@ -61,7 +61,6 @@ function App() {
       <div className='container2'>
         <div className='praise'>
         <h1 className='textpraise'>Praise & Reviews</h1>
-         {/* <span className='small'>''</span> */}
         <div className='rewiews'>
           <div className='review'>
           <span className='small'>''</span>
